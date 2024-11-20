@@ -10,24 +10,24 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'requests',
-    'validators',
-    'packaging',
-    'lxml',
-    'gitchangelog'
+    'requests>=2.26.0',
+    'validators>=0.18.2',
+    'packaging>=21.3',
+    'lxml>=4.6.3',
+    'gitchangelog>=3.0.4'
 ]
 
 test_requirements = [
-    'mock',
-    'pytest',
-    'pytest-cov',
-    'betamax',
-    'betamax-serializers'
+    'mock>=4.0.3',
+    'pytest>=6.2.5',
+    'pytest-cov>=2.12.1',
+    'betamax>=0.8.1',
+    'betamax-serializers>=0.2.0'
 ]
 
 dev_requirements = test_requirements + [
-    'flake8',
-    'tox',
+    'flake8>=3.9.2',
+    'tox>=3.24.4',
 ]
 
 extras_requirements = {

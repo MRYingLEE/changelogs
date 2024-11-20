@@ -68,4 +68,3 @@ This project is trying to solve this by:
 - if there is a valid repo URL, visit the repo and look for possible changelogs like `Changes.txt`, `NEWS.md` or `history.rst`.
 - fetch the content and somewhat try to parse it.
 
-
